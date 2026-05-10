@@ -1,0 +1,54 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Model</th>
+      <th>Training Accuracy</th>
+      <th>Validation Accuracy</th>
+      <th>Test Accuracy</th>
+      <th>Training Time</th>
+      <th>Key Observation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Simple RNN</td>
+      <td>~74%</td>
+      <td>~67%</td>
+      <td>~69%</td>
+      <td>Fastest</td>
+      <td>Short-term patterns, mild overfitting</td>
+    </tr>
+    <tr>
+      <td>LSTM</td>
+      <td>~95%</td>
+      <td>~80%</td>
+      <td>~81%</td>
+      <td>Slower</td>
+      <td>Captures long-term dependencies, slower convergence</td>
+    </tr>
+    <tr>
+      <td>GRU</td>
+      <td>~95%</td>
+      <td>~90%</td>
+      <td>~91%</td>
+      <td>Moderate</td>
+      <td>Efficient, fewer params, best performance</td>
+    </tr>
+    <tr>
+      <td>Bi-LSTM</td>
+      <td>~97%</td>
+      <td>~89–91%</td>
+      <td>~90.6%</td>
+      <td>Slowest</td>
+      <td>Forward+backward context, prone to overfitting</td>
+    </tr>
+    <tr>
+      <td>GRU + Clipping</td>
+      <td>~95%</td>
+      <td>~90%</td>
+      <td>~90–91%</td>
+      <td>Moderate</td>
+      <td>Stable training, smoother convergence</td>
+    </tr>
+  </tbody>
+</table>
