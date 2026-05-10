@@ -8,4 +8,4 @@
 - [View HTML Report](https://aquib-adeel.github.io/Data-Science/Titanic%20Data%20Overview%20Analysis/titanic_raw_data_overview.html)
 
 ## 3. RNN_Based_Text_Classification_Assignment_AG_News (Machine Learning)
-- [View Notebook](https://github.com/Aquib-Adeel/Data-Science/blob/main/MohammadAquib_Adeel_PGDSAIML_B12_MNIST.ipynb)
+- [View Notebook]([https://github.com/Aquib-Adeel/Data-Science/blob/main/MohammadAquib_Adeel_PGDSAIML_B12_MNIST.ipynb](https://github.com/Aquib-Adeel/Data-Science/blob/main/MohammadAquib_Adeel_PGDSAIML_B12_RNN_Based_Text_Classification_Using_AG_News_Dataset.ipynb))
